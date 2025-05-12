@@ -23,17 +23,17 @@ Then of introduced the option, he asks for the name
 Then request a price and after request a quantity
 at the final adds the details in the inventory
 
- --------------------------------------------------------
- Introduce the Product name: Mile                        
- --------------------------------------------------------
- Product Case added                                      
- Introduce the price of the product: 100000.00           
- Price of Case added                                     
- Enter the Product quantity: 1                           
- Quantity of Case added                                  
- --------------------------------------------------------
- Product Case added with Price $100.00 and quantity: 1000
- --------------------------------------------------------
+     --------------------------------------------------------
+     Introduce the Product name: Mile                        
+     --------------------------------------------------------
+     Product Case added                                      
+     Introduce the price of the product: 100000.00           
+     Price of Case added                                     
+     Enter the Product quantity: 1                           
+     Quantity of Case added                                  
+     --------------------------------------------------------
+     Product Case added with Price $100.00 and quantity: 1000
+     --------------------------------------------------------
 
 
 # Case 2  Search  Ask  Lookforproduct  
@@ -41,17 +41,17 @@ This option search in the inventory according to the input
 and search for the input in the inventory
 then show if the product is in the list or not
 
- -------------------------------------------------------------------
- The Product Uwu is not in the inventory. Please try again or exit  
- -------------------------------------------------------------------
- Enter the name of the Product to search: Jefer                     
- -------------------------------------------------------------------
- The Product Jefer is not in the inventory. Please try again or exit
- ------------------------------------------------------------------
- Enter the name of the Product to search: Coke                      
- -------------------------------------------------------------------
- Product: Coke  Price: $20.30  Quantity: 3                        
- -------------------------------------------------------------------
+     -------------------------------------------------------------------
+     The Product Uwu is not in the inventory. Please try again or exit  
+     -------------------------------------------------------------------
+     Enter the name of the Product to search: Jefer                     
+     -------------------------------------------------------------------
+     The Product Jefer is not in the inventory. Please try again or exit
+     ------------------------------------------------------------------
+     Enter the name of the Product to search: Coke                      
+     -------------------------------------------------------------------
+     Product: Coke  Price: $20.30  Quantity: 3                        
+     -------------------------------------------------------------------
 
 # Case 3  Update  UpdateProduct  Update product  
 This option calls the full inventory and show the list of products
@@ -59,21 +59,21 @@ if is the inventory clear return to the menu ifnot he ask for
 the name of the product what you want to change, validate the input
 then ask you if you want to change the price or the quantity
 
- -------------------------------------------------------------------------------------
-  This is the list of products in the inventory                                       
- -------------------------------------------------------------------------------------
- Product: Popcorn  Price: $5.10  Quantity: 10                                       
- Product: Coke  Price: $20.30  Quantity: 3                                          
- Product: Chocoramo  Price: $15.40  Quantity: 10                                    
- Product: Sparkies  Price: $1.00  Quantity: 30                                      
- Product: Lolete  Price: $0.00  Quantity: 1                                         
- ------------------------------------------------------------------------------------- 
- Enter the name of the product to update or type 'exit' to return to the menu: Lolete 
- What do you want to change? Price/Quantity: Price                                    
- What is the new price? 10000                                                         
- -------------------------------------------------------------------------------------
- The price of Lolete has been updated to 10000.00                                     
- -------------------------------------------------------------------------------------
+    -------------------------------------------------------------------------------------
+    This is the list of products in the inventory                                       
+    -------------------------------------------------------------------------------------
+    Product: Popcorn  Price: $5.10  Quantity: 10                                       
+    Product: Coke  Price: $20.30  Quantity: 3                                          
+    Product: Chocoramo  Price: $15.40  Quantity: 10                                    
+    Product: Sparkies  Price: $1.00  Quantity: 30                                      
+    Product: Lolete  Price: $0.00  Quantity: 1                                         
+    ------------------------------------------------------------------------------------- 
+    Enter the name of the product to update or type 'exit' to return to the menu: Lolete 
+    What do you want to change? Price/Quantity: Price                                    
+    What is the new price? 10000                                                         
+    -------------------------------------------------------------------------------------
+    The price of Lolete has been updated to 10000.00                                     
+    -------------------------------------------------------------------------------------
 
 # Case 4  Delete  Remove  Erase  
 This option looks for coincidences between the name of the product
@@ -117,7 +117,7 @@ show you the hole inventory
     Product: Chocoramo  Price: $15.40  Quantity: 10 
     Product: Sparkies  Price: $1.00  Quantity: 30   
     Product: Lolete  Price: $0.00  Quantity: 1      
---------------------------------------------------
+    --------------------------------------------------
 
 # Case 7  Exit  End  Finish 
 This option end the terminal :b
